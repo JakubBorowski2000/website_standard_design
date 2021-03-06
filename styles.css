@@ -5,7 +5,37 @@
 body{
     background-color: #EEEEEE;
 }
-
+p{
+    font-family: "Noto Sans JP", "calibri", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", "calibri", sans-serif;
+  font-weight: 700;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+p { font-size: 1em; }
+.regular{
+    font-weight: 400;
+}
+.bold{
+    font-weight: bold;
+}
+.centeredText{
+    text-align: center;
+}
+.regularIndent{
+    margin-left: 30px;
+}
 /* /////////////////////// CONTAINERS /////////////////////// */
 main .container{
     width: 90%;
@@ -13,11 +43,7 @@ main .container{
     margin: 30px auto;
     background-color: white;
 }
-main .container h2{
-    margin-left: 2em;
-}
 .containerInside{
-    height: 100px;
     width: 90%;
     margin: 2em auto;
     border: 1px solid black;
@@ -29,9 +55,8 @@ main .container h2{
     width: 25%;
     height: 100%;
 }
-#main-colors div p, .defaultBackgroundColor p{
-    text-align: center;
-    vertical-align: middle;
+#main-colors div p, .colourParagraph p{
+    padding: 30px 0;
 }
 
 /* /////////////////////// COLORS /////////////////////// */

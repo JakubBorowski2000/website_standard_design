@@ -2,45 +2,79 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--///////// Might add two different themes /////////-->
         <main class="light-theme">
             
             <!--///////// Main title /////////-->
-            <h1>Website Style Guide</h1>
+            <h1 class="regularIndent">Website Style Guide</h1>
 
             <!--///////// Color container /////////-->
             <div class="container" id="colors">
 
-                <h2>Main UI Colors</h2>
+                <h2 class="regularIndent">Main UI Colors</h2>
                 <div class="containerInside" id="main-colors">
-                    <div class="primaryBlue">
-                        <p><strong>Robin's egg blue: #00cec9</strong></p>
+                    <div class="primaryBlue centeredText">
+                        <p class="bold">Robin's egg blue: #00cec9</p>
                     </div>
-                    <div class="secondaryBlue">
-                        <p><strong>Faded poster: #81ecec</strong></p>
+                    <div class="secondaryBlue centeredText">
+                        <p class="bold">Faded poster: #81ecec</p>
                     </div>
-                    <div class="primaryGreen">
-                        <p><strong>Mint leaf: #00b894</strong></p>
+                    <div class="primaryGreen centeredText">
+                        <p class="bold">Mint leaf: #00b894</p>
                     </div>
-                    <div class="secondaryGreen">
-                        <p><strong>Ligt Greenish Blue: #55efc4</strong></p>
+                    <div class="secondaryGreen centeredText">
+                        <p class="bold">Ligt Greenish Blue: #55efc4</p>
                     </div>
                 </div>
-                <div class="containerInside defaultBackgroundColor">
+                <div class="containerInside defaultBackgroundColor colourParagraph centeredText">
                         <p><strong>DefaultBackgroundColor: #EEEEEE</strong></p>
                 </div>
             </div>
 
             <!--///////// Fonts container /////////-->
             <div class="container" id="fonts">
-                
+
+                <h2 class="regularIndent">Main Fonts</h2>
+                <div class="containerInside defaultBackgroundColor">
+                    <div class="fontText">
+                        <h1 class="regularIndent"> h1 Ubuntu - Almost before we knew it, we had left the ground.</h1>
+                        <h2 class="regularIndent"> h2 Ubuntu - Almost before we knew it, we had left the ground.</h2>
+                        <h3 class="regularIndent"> h3 Ubuntu - Almost before we knew it, we had left the ground.</h3>
+                        <h4 class="regularIndent"> h4 Ubuntu - Almost before we knew it, we had left the ground.</h4>
+                        <h5 class="regularIndent"> h5 Ubuntu - Almost before we knew it, we had left the ground.</h5>
+                        <h6 class="regularIndent"> h6 Ubuntu - Almost before we knew it, we had left the ground.</h6>
+                        <br>
+                        <br>
+                        <p class="regular centeredText">This is the regular paragraph font. It uses Note Sans JP</p>
+                        <p class="bold centeredText">This is the bold paragraph font. It uses Note Sans JP</p>
+                    </div>
+                </div>                
             </div>
 
             <!--///////// Text styles container /////////-->
             <div class="container" id="textStyles">
-                
+
+                <h2 class="regularIndent">Text Styles</h2>
+                <div class="containerInside defaultBackgroundColor">
+                    <h1 class="regularIndent">h1: Main Website Header</h1>
+                    <ul><p>font-size: 2em;</p></ul>
+                    <ul><p>font-weight: Bold;</p></ul>
+                    <ul><p>font-family: "Ubuntu", "calibri", sans-serif;</p></ul>
+
+                    <h2 class="regularIndent">h2: Various Subheadings</h2>
+                    <ul><p>font-size: 1.5em;</p></ul>
+                    <ul><p>font-weight: Bold;</p></ul>
+                    <ul><p>font-family: "Ubuntu", "calibri", sans-serif;</p></ul>
+
+                    <p class="regularIndent">p: Paragraph Text</p>
+                    <ul><p>font-size: 1em;</p></ul>
+                    <ul><p>font-weight: Bold;  or  font-weight: regular;</p></ul>
+                    <ul><p>font-family: "Noto Sans JP", "calibri", sans-serif;</p></ul>
+                </div>    
             </div>
         </main>
     </body>
