@@ -4,6 +4,8 @@
   }
 body{
     background-color: #EEEEEE;
+    min-width: 1100px;
+    font-family: "Noto Sans JP", "calibri", sans-serif;
 }
 p{
     font-family: "Noto Sans JP", "calibri", sans-serif;
@@ -55,8 +57,20 @@ main .container{
     width: 25%;
     height: 100%;
 }
-#main-colors div p, .colourParagraph p{
+.colorBox{
     padding: 30px 0;
+}
+/* /////////////////////// COLORS /////////////////////// */
+.containerInside button{
+    width: 10em;
+    height: 3.25em;
+    border-radius: 0.5em;
+    display: block;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 25px rgba(88, 88, 88, 0.25);
+    font-weight: bold;
+    color: white;
+    margin: 30px;
 }
 
 /* /////////////////////// COLORS /////////////////////// */
@@ -74,4 +88,28 @@ main .container{
 }
 .defaultBackgroundColor{
     background-color: #EEEEEE;
+}
+button.red{
+    background-color: #d63031;
+    outline: none;
+}
+button.red:active{
+    background-color: #e17055;
+    outline: none;
+}
+button.blue{
+    background-color: #0984e3;
+    outline: none;
+}
+button.blue:active{
+    background-color: #74b9ff;
+    outline: none;
+}
+button.grey{
+    background-color: #636e72;
+    outline: none;
+}
+button.grey:active{
+    background-color: #b2bec3;
+    outline: none;
 }
