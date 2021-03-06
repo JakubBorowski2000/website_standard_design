@@ -1,9 +1,12 @@
+/* /////////////////////// General /////////////////////// */
 *{
     box-sizing: border-box;
   }
 body{
     background-color: #EEEEEE;
 }
+
+/* /////////////////////// CONTAINERS /////////////////////// */
 main .container{
     width: 90%;
     border: 3px solid black;
